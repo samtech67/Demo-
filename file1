@@ -1,5 +1,12 @@
-
-file1 is been added
-
-Add more content
+keeep line length to 79 characters if possibble 
+keep alias elements in alphabetical order 
+exception when it depends on another alias
+check the syntax by using " visudo"
+use passwd for application accounts that must run commands as other users
+set the default to log
+At the bottom it includes the /etc/sudo
+to add/changes sudo
+Allow user to run sudo if someone wants to 
+Allow people in group wheel to run all command 
+Allow members of the user group to mount and unmount 
 
