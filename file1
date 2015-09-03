@@ -11,7 +11,6 @@ Allow people in group wheel to run all command
 Allow members of the user group to mount and unmount 
 Allow users to run sudo commands
 Allow access for alll the users 
-Can manage all commnads under the file .
-
+Can manage all commands by the users in this file 
 
 
