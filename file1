@@ -9,4 +9,9 @@ to add/changes sudo
 Allow user to run sudo if someone wants to 
 Allow people in group wheel to run all command 
 Allow members of the user group to mount and unmount 
-Allow users to run sudo commands 
+Allow users to run sudo commands
+Allow access for alll the users 
+Can manage all commnads under the file .
+
+
+
