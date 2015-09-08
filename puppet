@@ -10,3 +10,10 @@ check_command check_http!-u /2.0/api.svc
 }
 #more inputs can be added for the file
 # user access need to be added 
+define service {
+use generic-service
+host_name mysite.com
+service_description API
+check_command check_http!-u /2.0/api.svc
+}
+
