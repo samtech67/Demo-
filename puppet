@@ -2,4 +2,10 @@
 Puppet config file.
 follow instruction for the procedut 
 the user has the sudoer access from this content ,
-
+define service {
+use generic-service
+host_name mysite.com
+service_description API
+check_command check_http!-u /2.0/api.svc
+}
+#more inputs can be added for the file 
