@@ -16,4 +16,4 @@ host_name mysite.com
 service_description API
 check_command check_http!-u /2.0/api.svc
 }
-
+# content added 
